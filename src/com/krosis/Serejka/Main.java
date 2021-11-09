@@ -13,6 +13,7 @@ public class Main {
         System.out.println(" Введите месяц и день рождения ");
         int a = sc.nextInt();
         int d = sc.nextInt();
+        sc.close();
 
         if (a == 1) {
             System.out.println("ваш месяц январь ");
